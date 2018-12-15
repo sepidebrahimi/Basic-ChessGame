@@ -4,7 +4,7 @@ import java.io.*;
 public class ChessGame{
 public static void main(String[] args) throws Exception {
     System.out.println("Reading a file");
-    Scanner scan = new Scanner(new File("C:/Users/Sepi/Desktop/GitHub/Basic-ChessGame/input.txt"));
+    Scanner scan = new Scanner(new File("C:/Users/Sepi/Desktop/GitHub/Basic-ChessGame/input.txt")); //ENTER YOUR OWN PATH
     String line;
     String[] lineSegment;
 
@@ -31,7 +31,7 @@ public static void main(String[] args) throws Exception {
     }
 
     System.out.println(board);
-    Scanner scanTwo = new Scanner(new File("C:/Users/Sepi/Desktop/GitHub/Basic-ChessGame/input.txt"));
+    Scanner scanTwo = new Scanner(new File("C:/Users/Sepi/Desktop/GitHub/Basic-ChessGame/input.txt")); //ENTER YOUR OWN PATH
 
     //read the file for moves
     while (scanTwo.hasNextLine()) {
