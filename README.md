@@ -1,1 +1,1 @@
-# Basic-ChessGame
+# basic-chess
